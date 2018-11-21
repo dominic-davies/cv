@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  text-align: center;
 }
 
 h1 {
@@ -8,4 +9,19 @@ h1 {
 
 div {
   background-color: #e4f9f5;
+}
+
+.top-cloud {
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.intro-text {
+  margin-top: 100px;
+  position: relative;
 }
