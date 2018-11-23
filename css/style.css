@@ -13,12 +13,19 @@ h1 {
   /* font-size: 562.5%; */
   /* font-size: 5.625em; */
   font-size: 5.625rem;
+  /* single value without units */
+  line-height: 2;
   margin: 50px auto 0 auto;
 }
 
 h2 {
   color: #66bfbf;
   font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
 }
 
 h2,
