@@ -100,6 +100,12 @@ h3 {
 
 /* Skills Section  */
 
+.skills {
+  background: #f7f7f7;
+  height: 100vh;
+  padding: 60px;
+}
+
 .skill-row {
   /* display: inline-block; */
   line-height: 2;
@@ -109,6 +115,7 @@ h3 {
 }
 
 .skill-row-2 {
+  margin-bottom: 200px;
   padding-top: 50px;
 }
 
