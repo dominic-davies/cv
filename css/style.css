@@ -1,7 +1,8 @@
 body {
+  color: #40514e;
+  font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
 }
 
 hr {
@@ -16,7 +17,9 @@ hr {
 
 h1 {
   color: #66bfbf;
-  font-family: 'Sacramento', cursive;
+  /* font-family: 'Sacramento', cursive; */
+  font-family: 'Oswald', sans-serif;
+  /* Class notes - sorry! */
   /* font-size: 90px;  90px/16 = 562.5% 
   (equivalent of 90px) now responsive
   */
@@ -40,7 +43,9 @@ h3 {
 
 h2,
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
 }
 
 .top-container-wrapper {
@@ -70,11 +75,6 @@ h3 {
 .img-mountain {
   width: 100%;
 }
-
-/* .intro-text {
-  margin-top: 100px;
-  position: relative;
-} */
 
 .img-bootstrap {
   /* need to make responsive */
@@ -147,7 +147,7 @@ h3 {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -177,4 +177,8 @@ footer a {
   font-weight: bold;
   margin-left: 30px;
   text-decoration: none;
+}
+
+footer a:hover {
+  color: #eaf6f6;
 }
