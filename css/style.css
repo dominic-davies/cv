@@ -4,6 +4,16 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+hr {
+  /* get rid of default browser styling */
+  border-style: none;
+  /* % is better for mobile devices */
+  width: 5%;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 7px;
+}
+
 h1 {
   color: #66bfbf;
   font-family: 'Sacramento', cursive;
@@ -69,6 +79,23 @@ h3 {
 .img-bootstrap {
   /* need to make responsive */
   width: 256px;
+}
+
+/* Hello-Section */
+
+.hello-section {
+  height: 100vh;
+}
+
+.profile {
+  padding-top: 50px;
+  line-height: 2;
+  margin: 100px auto;
+  width: 50%;
+}
+
+.profile img {
+  border-radius: 50%;
 }
 
 /* Skills Section  */
