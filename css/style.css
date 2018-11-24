@@ -67,10 +67,22 @@ h3 {
 }
 
 /* Skills Section  */
+
 .skill-row {
   /* display: inline-block; */
   line-height: 2;
   margin: 100px auto;
   text-align: left;
   width: 49%;
+}
+
+.img-html5 {
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img-bootstrap {
+  float: right;
+  margin-left: 30px;
 }
