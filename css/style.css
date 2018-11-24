@@ -129,3 +129,37 @@ h3 {
   float: right;
   margin-left: 30px;
 }
+
+/* Contact Section */
+
+.contact-me {
+  line-height: 2;
+  padding: 100px;
+}
+
+.btn {
+  background: #20d4d4;
+  background-image: -webkit-linear-gradient(top, #20d4d4, #66bfbf);
+  background-image: -moz-linear-gradient(top, #20d4d4, #66bfbf);
+  background-image: -ms-linear-gradient(top, #20d4d4, #66bfbf);
+  background-image: -o-linear-gradient(top, #20d4d4, #66bfbf);
+  background-image: linear-gradient(to bottom, #20d4d4, #66bfbf);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
