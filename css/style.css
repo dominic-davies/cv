@@ -51,9 +51,9 @@ h3 {
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 200px;
   bottom: 300px;
+  left: 200px;
+  position: absolute;
 }
 
 /* .intro-text {
@@ -62,5 +62,15 @@ h3 {
 } */
 
 .img-bootstrap {
+  /* need to make responsive */
   width: 256px;
+}
+
+/* Skills Section  */
+.skill-row {
+  /* display: inline-block; */
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 49%;
 }
